@@ -1,0 +1,6 @@
+-r common.txt
+
+MySQL-python
+python-memcached
+gunicorn
+gevent
