@@ -1,8 +1,5 @@
 """
 Django common settings for this project.
-
-For the full list of settings and their values, see
-https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
@@ -43,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
